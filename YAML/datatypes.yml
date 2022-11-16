@@ -1,0 +1,46 @@
+# String variables
+name: devaraj
+fruit: "apple"
+job: "swe"
+
+# storing data in multiple lines
+bio: |
+  hey my name is devaraj.
+  iam a geeek.
+
+# write single line in multiple lines
+message: >
+  hey my name is devaraj.
+  iam a geeek.
+
+# same as
+message: !!str hey my name is devaraj.iam a geeek.
+
+number: 878
+marks: 98.74
+boolean: !!bool No # n, N, false, False, FALSE 
+# same for true -> yes,y,Y
+
+# specify the datatype
+zero: !!int 0
+positiveNum: !!int 44
+positiveNum: !!int -44
+binaryNum: !!int 0b11001
+octal: !!int 09874
+hexa: !!int 0x45
+commaValue: !!int +540_000 # 540,000
+exponential numbers: 6.023E56 
+
+# floating point numbers
+marks: !!float 56.66
+infinite: !!float .inf
+not a num: .nan
+
+# null
+surname: !!null Null # or null NULL ~
+~: this is a null key
+
+# dates and time
+date: !!timestamp 2022-11-14
+indiatimezone: 2022-11-14T02:59:43:1Z +5:30
+

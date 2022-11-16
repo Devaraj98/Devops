@@ -1,0 +1,17 @@
+# key-value pair
+"apple": "Iam a fruit"
+1: "This is roll number"
+---
+# lists
+- apple
+- mango
+- banana
+---
+cities:
+  - new delhi
+  - mumbai
+  - kerala
+---
+cities: [new delhi, mumbai]
+---
+{ mango: "yellow fruit", age: 56 }
